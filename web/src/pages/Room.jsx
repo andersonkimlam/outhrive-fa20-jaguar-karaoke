@@ -6,9 +6,10 @@ class Room extends React.Component {
   }
   render() {
     return (
-      <div>
-        <img src={this.props.img} style={{height:"20%"}}/>
-
+      <div className="col" id="roombox">
+        <img src={this.props.img} className="room"/>
+        <p className="room-num"> #{this.props.number}: {this.props.name}</p>
+        <p className="room-price"> Price: ${this.props.price}</p>
       </div>
 
     );
