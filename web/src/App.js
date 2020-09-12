@@ -60,6 +60,8 @@ class App extends React.Component{
           <Route component={Error}/>
 
           </Switch>
+
+          
           <Footer id ="footer"/>
 
         </Router>

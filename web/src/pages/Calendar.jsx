@@ -13,7 +13,7 @@ class Calendar extends React.Component {
 
 
         <div >
-        <iframe className = "googleCalendar" src="https://calendar.google.com/calendar/embed?src=ht3jlfaac5lfd6263ulfh4tql8%40group.calendar.google.com&ctz=America%2FLos_Angeles" ></iframe>     
+        <iframe className = "googleCalendar" src="https://calendar.google.com/calendar/embed?src=ht3jlfaac5lfd6263ulfh4tql8%40group.calendar.google.com&ctz=America%2FLos_Angeles"   frameborder= '0' scrolling= "no"></iframe>     
         {/* <iframe src="calendar.php"/> */}
         </div>
     </div>

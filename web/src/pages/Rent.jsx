@@ -12,6 +12,8 @@ physical locations. To rent, please (insert text about how to rent each - via Go
               <div> 
               <p>Study spaces  </p>
               <p>Karaoke Machines </p>
+
+
                 <img src={require("../images/study.png")}/> 
                 
 
@@ -20,10 +22,11 @@ physical locations. To rent, please (insert text about how to rent each - via Go
               </div>
 
 
-              Come study at Jaguar! Our rooms are now open for group study and meeting spaces.
+              <p>Come study at Jaguar! Our rooms are now open for group study and meeting spaces.
+              </p>
 
-
-              Bring the party to your home! Our karaoke machines are ready to rent. Delivery services available.
+              <p>Bring the party to your home! Our karaoke machines are ready to rent. Delivery services available.
+              </p>
         </div>
 
 
@@ -34,9 +37,9 @@ physical locations. To rent, please (insert text about how to rent each - via Go
 
 
 
-        <div className="GoogleForm"> 
+        <div> 
 
-
+        <iframe className = "googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfdohj3Fc-E2ZOyBijZ63-CisBN8OsdCyZjd0Nk20Z7ZeXmnA/viewform?embedded=true"   frameborder ='0' marginheight= '0' marginwidth= '0'>Loading…</iframe>
         </div>
       
       </div>
