@@ -12,7 +12,7 @@ physical locations. To rent, please (insert text about how to rent each - via Go
               <div> 
               <p>Study spaces  </p>
               <p>Karaoke Machines </p>
-                <img src={require("../images/study.png")}/>
+                <img src={require("../images/study.png")}/> 
                 
 
                 <img src={require("../images/mic 2.png")}/>

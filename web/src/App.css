@@ -200,8 +200,9 @@ h1 {
 /****** ROOMS ******/
 .room {
   height: 18vh;
-  margin-left: 2vw;
+  /* margin-left: 2vw; */
   margin-right:2vw;
+  align-items: center;
 }
 
 .room-num {
@@ -243,8 +244,8 @@ h1 {
    
    position: absolute;
   width: 100%;
-  height: 143px;
-  
+  height: 15%;
+  padding-top: 2vh;
   margin-top: 75px;
 background: #DDDDDD;
   /* width: 100%;
@@ -263,7 +264,7 @@ background: #DDDDDD;
 
 }
 
-.Contacts {
+.Contacts p{
   position: absolute;
 
 
@@ -297,6 +298,15 @@ color: #000000;
   color: #000000;
 }
 
+.BerkeleyLocation p {
+  font-size: 16px;
+
+}
+
+.OaklandLocation p {
+  font-size: 16px;
+
+}
 
 .OaklandLocation {
   position: absolute;
@@ -316,12 +326,14 @@ color: #000000;
   color: #000000;
 }
 
-
+.SocialMedia p {
+  font-size: 16px;
+}
 .SocialMedia {
   position: absolute;
   /* width: 183px;
   height: 19px; */
-  left: 75%;
+  left: 80%;
   /* top: 1282px; */
 
   font-family: Lato;
@@ -330,10 +342,16 @@ color: #000000;
   font-size: 16px;
   line-height: 19px;
   display: flex;
-  align-items: center;
+
+  text-align: center;
 
   color: #000000;
 
+}
+
+.mediaImages img{
+  margin-left: .5vw;
+  margin-right: .5vw;
 }
 
 /****** SITE ******/

@@ -7,14 +7,16 @@ class Footer extends React.Component {
     <footer className="mt-5" id ="footer">
 
         <div className="row border-top justify-content-between p-3">
+          
           <div className='col p-0' md={3} sm={12}>
             
-          <div className ="Contacts">
-            Contact us: (Paul's Phone #) <br/>
+            
+          <div className ="Contacts"> 
+            <p>Contact us: (Paul's Phone #) <br/>
             Support us: (link to Gofundme) <br/> <br/>
 
             © 2020 Jaguar Karaoke
-
+            </p>
           </div>
 
           <div className ="BerkeleyLocation">
@@ -39,11 +41,22 @@ class Footer extends React.Component {
           <div className ="SocialMedia">
           <p>
             Follow us on social media! <br/>
+            <div className = "mediaImages">
+            <a href = "https://www.google.com">
+            <img src={require("../images/instagram.png")}/>
+            </a>
 
-            <img src="./logo.png" ></img>
-            <img src="./logo.png" ></img>
-            <img src="./logo.png" ></img>
+            <a href = "https://www.google.com">
+            <img src={require("../images/facebook.png")}/>
+             </a>
+
+             <a href = "https://www.google.com">
+            <img src={require("../images/twitter.png")} /> 
+            </a>
+
+            </div>
             </p>
+            
           </div>
 
 

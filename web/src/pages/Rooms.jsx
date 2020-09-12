@@ -14,6 +14,7 @@ class Rooms extends React.Component {
             <Room img={require("../images/berkeleyroom3.png")} number={3} name="Dimension" price="25"/>
             <Room img={require("../images/berkeleyroom4.png")} number={4} name="Dimension" price="25"/>
           </div>
+          <br/>
           <div className="row">
             <Room img={require("../images/berkeleyroom5.png")} number={1} name="Dimension" price="25"/>
             <Room img={require("../images/berkeleyroom6.png")} number={2} name="Dimension" price="25"/>
