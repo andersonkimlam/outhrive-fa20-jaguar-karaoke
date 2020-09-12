@@ -42,25 +42,20 @@ class App extends Component {
 
 
   render() {return (
-
-      <Router>
-
+    <Router>
       <Container className='p-0' fluid={true}>
-      <Header />
-      <Switch>
+        <Header />
+          <Switch>
 
-<Route exact path="/" render={() => <HomePage title={this.state.home.title}/>} />
+          <Route exact path="/" render={() => <HomePage title={this.state.home.title}/>} />
+          <Route exact path="/about" render={() => <AboutPage title={this.state.about.title}/>} />
+          <Route component={ErrorPage}/>
 
-<Route exact path="/about" render={() => <AboutPage title={this.state.about.title}/>} />
+          </Switch>
 
-
-<Route component={ErrorPage}/>
-
-</Switch>
-
-<Footer />
-</Container>
-      </Router>
+          <Footer />
+      </Container>
+    </Router>
 
   );
 }}

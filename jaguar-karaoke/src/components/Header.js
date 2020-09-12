@@ -10,33 +10,68 @@ import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
-function Header() {
-
-  return(
-
+import '../App.css';
+class Header extends React.Component{
+  constructor() {
+    super();
+  }
+  render() {return(
     <div>
-              <Navbar className="border-bottom" bg='transparent' expand = 'lg'>
-                <Navbar.Brand><a href="/" className="title">Jaguar Karaoke</a></Navbar.Brand>
-                <Navbar.Toggle aria-controls='navbar-toggle' />
-                <Navbar.Collapse id='navbar-toggle'>
+            <div className="nav_title">
 
-                  <Nav className="ml-auto">
-                    <Link className="nav-link" to='/'>Home</Link>
-                    <Link className="nav-link" to='/about'>About</Link>
+                <p className="title">JAGUAR</p>
+                <img id="logo"src={require("../images/v1_443-Logo.png")} width="150px" height="121.15px"/>
+                <p className="title"> KARAOKE</p>
+            </div>
 
 
+            <div className="nav-tabs">
+                <div className="nav-tab">
+                  <p className="nav-tab-name">HOME</p>
+                </div>
 
-                  </Nav>
-                </Navbar.Collapse>
-              </Navbar>
+                <div className="nav-tab">
+                  <p className="nav-tab-name">ABOUT</p>
+                </div>
 
-              
-    </div>
+                <div className="nav-tab">
+                  <p className="nav-tab-name">ROOMS</p>
+                </div>
+
+                <div className="nav-tab">
+                  <p className="nav-tab-name">RENT</p>
+                </div>
+
+                <div className="nav-tab">
+                  <p className="nav-tab-name">FAQ</p>
+                </div>
+            </div>
+
+          </div>
+
+
+    // <div>
+    //           <Navbar className="border-bottom" bg='transparent' expand = 'lg'>
+    //             <Navbar.Brand><a href="/" className="title">Jaguar Karaoke</a></Navbar.Brand>
+    //             <Navbar.Toggle aria-controls='navbar-toggle' />
+    //             <Navbar.Collapse id='navbar-toggle'>
+    //
+    //               <Nav className="ml-auto">
+    //                 <Link className="nav-link" to='/'>Home</Link>
+    //                 <Link className="nav-link" to='/about'>About</Link>
+    //
+    //
+    //
+    //               </Nav>
+    //             </Navbar.Collapse>
+    //           </Navbar>
+    //
+    //
+    // </div>
 
 
   );
 
-}
+}}
 
 export default Header;

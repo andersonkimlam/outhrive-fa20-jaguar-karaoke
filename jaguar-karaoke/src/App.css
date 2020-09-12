@@ -1,3 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.title{
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  color:white;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.nav_title {
+  display: flex;
+  flex-direction: row;
+  background-color: #25283D;
+  align-items: center;
+  justify-content: center;
+  align-self:center;
+  margin-top:0px;
+  margin-bottom:0px;
+  border-bottom: solid 10px #9F84BD;
+}
+
+.nav-tabs {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-tab {
+  background: #DDDDDD;
+  border-left: 3px solid #FFFFFF;
+  border-right: 3px solid #FFFFFF;
+
+  box-sizing: border-box;
+  width: 285px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.nav-tab-name{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align:center;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+
+#logo {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display:flex;
+  flex-direction: row;
+}
+
+#notice-box {
+  border: 1px solid #C09B16;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+#home{
+  margin-left: 10vh;
+  margin-right:10vh;
+}
+
 .App {
   text-align: center;
 }
