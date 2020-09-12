@@ -19,7 +19,7 @@ export default ({ close }) => (
 
 
     <div className="PopupClose">
-      <button class="PopupButton" onClick={close}>
+      <button class="btn" className="PopupButton" onClick={close}>
          Got it!
       </button>
 

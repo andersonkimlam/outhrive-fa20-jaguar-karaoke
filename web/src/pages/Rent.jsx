@@ -18,6 +18,18 @@ physical locations. To rent, please (insert text about how to rent each - via Go
                 <img src={require("../images/mic 2.png")}/>
 
               </div>
+
+
+              Come study at Jaguar! Our rooms are now open for group study and meeting spaces.
+
+
+              Bring the party to your home! Our karaoke machines are ready to rent. Delivery services available.
+        </div>
+
+
+        <div className = "calendarButton">
+            <a href="/calendar"><button> View Calendar </button> </a>
+
         </div>
       
       </div>
