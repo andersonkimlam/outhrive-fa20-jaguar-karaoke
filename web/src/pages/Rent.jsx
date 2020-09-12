@@ -9,7 +9,15 @@ class Rent extends React.Component {
 physical locations. To rent, please (insert text about how to rent each - via Google Form below, calling Paul, etc.)</p>
         
         <div className="row">
+              <div> 
+              <p>Study spaces  </p>
+              <p>Karaoke Machines </p>
+                <img src={require("../images/study.png")}/>
+                
 
+                <img src={require("../images/mic 2.png")}/>
+
+              </div>
         </div>
       
       </div>
