@@ -22,7 +22,7 @@ class FAQ extends React.Component {
 
             <br/><br/><br/>
             <strong> How is the internet/wifi connection? </strong>
-            <br/>
+            <br/><br/>
             The internet is fast and stable. (State the speed/mb)
 
             <br/><br/><br/>
@@ -32,7 +32,7 @@ class FAQ extends React.Component {
 
             <br/><br/><br/>
             <strong> How can we reserve a rental for a room or karaoke unit?</strong> 
-            <br/>
+            <br/><br/>
             Please see our room rental update and karaoke rental update for interest forms. 
 
             <br/><br/><br/>

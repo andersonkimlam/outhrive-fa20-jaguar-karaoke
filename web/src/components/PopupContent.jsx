@@ -5,7 +5,7 @@ export default ({ close }) => (
  
 
  <div className="blur"> </div>   
-  <div className="modal">
+  <div className="popupgroup">
 
 
 
