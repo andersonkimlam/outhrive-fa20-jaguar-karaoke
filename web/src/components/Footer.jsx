@@ -32,7 +32,7 @@ class Footer extends React.Component {
 
           <p><strong>Oakland Location</strong> <br/> <br/>
 
-          <strong> Address </strong> 4390 Telegraph Ave, Oakland, CA 95609 <br/>
+          <strong> Address </strong> 4390 Telegraph Ave, Oakland, CA 94609 <br/>
           <strong> Hours </strong> Sun - Sat: 6PM - 2AM
           </p>
           </div> 
