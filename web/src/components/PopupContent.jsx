@@ -1,8 +1,17 @@
 import React from "react";
 
 export default ({ close }) => (
+  <div> 
+ 
+
+ <div className="blur"> </div>   
   <div className="modal">
+
+
+
      <a className="close" onClick={close}>
+
+       
        &times;
      </a>
     {/* <img class = "popup" src={require("../images/karaokebackground1.png")}/> */}
@@ -23,6 +32,13 @@ export default ({ close }) => (
          Got it!
       </button>
 
+
     </div>
+
+
+  
+
+  </div>
+
   </div>
 );

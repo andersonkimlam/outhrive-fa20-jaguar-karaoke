@@ -16,6 +16,7 @@ class Home extends React.Component{
         <div>
           <Popup open={true} modal>
             {close => <PopupContent close={close} />}
+            
           </Popup>
         </div>
 
