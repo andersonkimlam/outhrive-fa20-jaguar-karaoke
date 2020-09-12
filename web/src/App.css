@@ -197,6 +197,44 @@ h1 {
   margin-left: 5vw;
 }
 
+
+/******* CALENDAR PAGE ********/
+
+
+.calendar-page {
+  margin-left: 8vw;
+  margin-right:8vw;
+  margin-top: 0px;
+}
+
+.calendar-page p {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+
+.googleCalendar{
+  border: 0; 
+  width: 80vw;
+  height: 70vh;
+  frameborder: 0; 
+  scrolling: "no";
+  
+}
+
+
+
+
 /****** ROOMS ******/
 .room {
   height: 18vh;

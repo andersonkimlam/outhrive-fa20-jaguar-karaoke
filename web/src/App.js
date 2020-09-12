@@ -6,6 +6,7 @@ import Rooms from './pages/Rooms.jsx';
 import Rent from './pages/Rent.jsx';
 import FAQ from './pages/FAQ.jsx';
 import Home from './pages/Home.jsx';
+import Calendar from './pages/Calendar.jsx';
 
 // import Popup from "reactjs-popup";
 // import PopupContent from "./components/PopupContent.jsx";
@@ -52,6 +53,8 @@ class App extends React.Component{
           <Route exact path="/rooms" render={() => <Rooms />}/>
           <Route exact path="/rent" render={() => <Rent />}/>
           <Route exact path="/faq" render={() => <FAQ />}/>
+
+          <Route exact path="/calendar" render={() => <Calendar />}/>
 
 
           <Route component={Error}/>

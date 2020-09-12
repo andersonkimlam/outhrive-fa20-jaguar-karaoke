@@ -31,6 +31,13 @@ physical locations. To rent, please (insert text about how to rent each - via Go
             <a href="/calendar"><button> View Calendar </button> </a>
 
         </div>
+
+
+
+        <div className="GoogleForm"> 
+
+
+        </div>
       
       </div>
 
