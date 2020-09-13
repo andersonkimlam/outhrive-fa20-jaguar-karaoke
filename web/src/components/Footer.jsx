@@ -22,8 +22,8 @@ class Footer extends React.Component {
           <div className ="BerkeleyLocation">
             <p><strong>Berkeley Location</strong> <br/> <br/>
 
-            <strong> Address </strong> 2516 Durant Ave, Berkeley, CA 94704  <br/>
-            <strong> Hours </strong> Sun - Sat: 6PM - 2AM
+            <strong> Address </strong> &nbsp; &nbsp;2516 Durant Ave, Berkeley, CA 94704  <br/>
+            <strong> Hours </strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Sun - Sat: 6PM - 2AM
 
             </p>
           </div>
@@ -32,8 +32,8 @@ class Footer extends React.Component {
 
           <p><strong>Oakland Location</strong> <br/> <br/>
 
-          <strong> Address </strong> 4390 Telegraph Ave, Oakland, CA 94609 <br/>
-          <strong> Hours </strong> Sun - Sat: 6PM - 2AM
+          <strong> Address </strong> &nbsp; &nbsp;4390 Telegraph Ave, Oakland, CA 94609 <br/>
+          <strong> Hours </strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Sun - Sat: 6PM - 2AM
           </p>
           </div> 
 
