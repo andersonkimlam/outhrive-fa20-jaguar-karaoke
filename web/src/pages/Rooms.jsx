@@ -8,20 +8,23 @@ class Rooms extends React.Component {
         <div className="about-page">
           <h1> Rooms</h1>
           <p> We currently have 8 different rooms available to rent! Sizes and prices are listed below.</p>
+          <Room/>
+          
+      {/*
           <div className="row">
-            <Room img={require("../images/berkeleyroom1.png")} number={1}/>
-            <Room img={require("../images/berkeleyroom2.png")} number={2}/>
-            <Room img={require("../images/berkeleyroom3.png")} number={3}/>
-            <Room img={require("../images/berkeleyroom4.png")} number={4}/>
+            <Room img={require("../images/berkeleyroom1.png")}/>
+            <Room img={require("../images/berkeleyroom2.png")}/>
+            <Room img={require("../images/berkeleyroom3.png")}/>
+            <Room img={require("../images/berkeleyroom4.png")}/>
           </div>
           <br/>
           <div className="row">
-            <Room img={require("../images/berkeleyroom5.png")} number={5}/>
-            <Room img={require("../images/berkeleyroom6.png")} number={6}/>
-            <Room img={require("../images/berkeleyroom7.png")} number={7}/>
-            <Room img={require("../images/berkeleyroom8.png")} number={8}/>
+            <Room img={require("../images/berkeleyroom5.png")}/>
+            <Room img={require("../images/berkeleyroom6.png")}/>
+            <Room img={require("../images/berkeleyroom7.png")}/>
+            <Room img={require("../images/berkeleyroom8.png")}/>
           </div>
-
+          */}
         </div>
       </div>
 
@@ -29,5 +32,4 @@ class Rooms extends React.Component {
 
   }
 }
-
 export default Rooms;
