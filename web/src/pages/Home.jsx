@@ -16,12 +16,12 @@ class Home extends React.Component{
         <div>
           <Popup open={true} modal>
             {close => <PopupContent close={close} />}
-            
+
           </Popup>
         </div>
 
       <div id="home">
-      
+
 
         <div className="row">
             <div className="col" style={{width: "30%"}}>
@@ -61,7 +61,7 @@ class Home extends React.Component{
                 <div className="row">
                   <img id="mic" src={require("../images/mic.png")}/>
                   <p>
-                  Whether it’s hosting a club event or having the perfect Saturday night out with friends, Jaguar Karaoke is the go-to place for any occasion! Pick from our [#] rooms, which come equipped with karaoke machines, flat screen TVs, HDMI ports, high-speed wifi, and more!
+                  Whether it’s hosting a club event or having the perfect Saturday night out with friends, Jaguar Karaoke is the go-to place for any occasion! Pick from our rooms, which come equipped with karaoke machines, flat screen TVs, HDMI ports, high-speed wifi, and more!
 
 On our website, you’ll find all necessary information regarding our rental services, mission, store hours, and FAQs.
                   </p>
