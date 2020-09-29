@@ -476,12 +476,15 @@ color: #000000;
 }
 
 .blur {
-  position: relative;
+  position: fixed;
   background-color: rgb(0, 0, 0.5);
   opacity: .5;
-  height: 1679px;
-  width: 1001px;
-  background-position: left center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
 }
 
 .PopupTitle {
@@ -492,6 +495,7 @@ color: #000000;
   font-weight: normal;
   font-size: 60px;
   line-height: 70px;
+  top:70px;
 
   color: #FFFFFF;
 
@@ -500,18 +504,16 @@ color: #000000;
 
 .PopupBody {
   position: relative;
-  width: 490px;
-  height: 330px;
-  padding-left: 5vw;
-  padding-right:5vw;
+  padding-left: 1vw;
+  padding-right:1vw;
   align-items: center;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 33px;
   text-align: center;
+  top:90px;
 
   color: #FFFFFF;
 }
@@ -525,6 +527,7 @@ color: #000000;
   position: relative;
   width: 293px;
   height: 76px;
+  top: 170px;
   cursor:pointer;
 
   background: #FFFFFF;
