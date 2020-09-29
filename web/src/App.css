@@ -476,7 +476,7 @@ color: #000000;
 }
 
 .blur {
-  position: absolute;
+  position: relative;
   background-color: rgb(0, 0, 0.5);
   opacity: .5;
   height: 1679px;
