@@ -485,7 +485,7 @@ color: #000000;
 }
 
 .PopupTitle {
-  /* position: relative; */
+  position: relative;
   width: 447px;
   height: 70px;
   text-align: center;
@@ -524,7 +524,7 @@ color: #000000;
 
 
 .PopupButton {
-  position: absolute;
+  position: relative;
   width: 293px;
   height: 76px;
   cursor:pointer;
