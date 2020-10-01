@@ -308,52 +308,86 @@ color: #000000;
 
 
  #footer {
-
-  position: relative;
+   /* flex: 1 1 auto;
+   position: absolute;
   width: 100%;
   height: 15%;
   padding-top: 2vh;
   margin-top: 75px;
+background: #DDDDDD; */
+
+flex: 1 1 auto;
 background: #DDDDDD;
-  /* width: 100%;
-  height: 15px; */
+padding-top: 2vh;
+margin-top: 75px;
+height: 15%;
+  width: 100%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+
+
 
  }
 
+
+ .row2 {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .row2 > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
  .footerBottom {
-  position: absolute;
+
+
   width: 100%;
   height: 20px;
-  left: -1px;
+  /* left: -1px; */
   bottom: 0px;
 
   background: #25283D;
 
 }
 
-.Contacts p{
-  position: relative;
 
+.Contacts {
+  /* flex: 1 1 auto; */
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+
+
+}
+.Contacts p{
 
 font-family: Lato;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
-display: flex;
-align-items: center;
+
 
 color: #000000;
 
 }
 
+.gofundme {
+
+  width: 100%;
+  height: 20vh;;
+}
+
 .BerkeleyLocation {
-  position: relative;
+
   /* width: 342px;
   height: 76px; */
-  /*left: 25%;*/
-  /* top: 1284px; */
 
+  /* top: 1284px; */
+margin-left: 5%;
   font-family: Lato;
   font-style: normal;
   /* font-weight: normal; */
@@ -376,12 +410,12 @@ color: #000000;
 }
 
 .OaklandLocation {
-  position: relative;
+
   /* width: 359px;
   height: 76px; */
-  /*left: 50%;*/
-  /* top: 10%; */
 
+  /* top: 10%; */
+margin-left: 5%;
   font-family: Lato;
   font-style: normal;
   /* font-weight: normal; */
@@ -397,10 +431,10 @@ color: #000000;
   font-size: 16px;
 }
 .SocialMedia {
-  position: relative;
+margin-left: 5%;
   /* width: 183px;
   height: 19px; */
-  /*left: 80%;*/
+
   /* top: 1282px; */
 
   font-family: Lato;
@@ -415,6 +449,12 @@ color: #000000;
   color: #000000;
 
 }
+
+.mediaImages img{
+  margin-left: .5vw;
+  margin-right: .5vw;
+  margin-top: .5vw;
+}
 .gfm-embed {
   position: relative;
   margin-top: 5vh;
@@ -423,11 +463,7 @@ color: #000000;
   margin-right: 206px;
   overflow: hidden;
 }
-.mediaImages img{
-  margin-left: .5vw;
-  margin-right: .5vw;
-  margin-top: .5vw;
-}
+
 
 /****** SITE ******/
  #site-container {
