@@ -272,10 +272,29 @@ color: #000000;
 
 .pics_in_a_row{
   display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
 
-.img1{flex:1.3344;}
-.img2{flex:1.3345;}
+.img1, .img2{
+  width:40%;
+  margin:0 5%;
+  min-width: 280px;
+  text-align: center;
+}
+.img1 h1, .img2 h1{
+  /* height:144px; */
+  font-size: 32px;
+}
+.img1 img,.img2 img{
+  width:100%;
+}
+@media(max-width:1100px){
+  .img1, .img2{
+    width:100%;
+    margin:0px;
+  }
+}
 
 .container{
   background:white;
@@ -285,12 +304,11 @@ color: #000000;
 }
 
 .googleForm {
-  margin-top: 10vh;
-  width: 50vw;
-  height: 100vh;
-  margin-left: 250px;
-  margin-right: 250px;
-
+  border:0;
+  min-height:400px;
+  left:0;
+  top:0;
+  width:100%;
 }
 
 /******* FAQ PAGE ********/
@@ -461,9 +479,12 @@ margin-left: 5%;
   margin-bottom:5vh;
   margin-left: 430px;
   margin-right: 206px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
-
+.facebook{
+ display: flex;
+ justify-content: center;
+}
 
 /****** SITE ******/
  #site-container {
