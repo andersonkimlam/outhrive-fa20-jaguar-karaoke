@@ -282,6 +282,25 @@ color: #000000;
   margin-left: 5%;
 }
 
+.img1 h1 {
+
+
+  font-family: Lato;
+  /* font-style: normal;
+  font-weight: normal; */
+    font-size: 40px;
+    text-align: center;
+}
+
+.img2 h1{
+
+  font-family: Lato;
+  /* font-style: normal;
+  font-weight: normal; */
+font-size: 40px;
+  text-align: center;
+}
+
 .container{
   background:white;
   margin: 0 auto;
