@@ -15,58 +15,101 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 class Header extends React.Component {
   constructor(props) {
-      super(props);
+    super();
+    this.state = {
+      current: window.location.pathname.substring(1),
+    }
+
+    // if (this.state.current === "/") {
+    //   this.currentTab("home")
+    // }
+
   }
-  
+
+
+
+  currentTab = (tab) => {
+    this.setState({current: tab})
+    // console.log("hi")
+
+  }
+
 
 
   render() {
-    console.log(this.props.currentTab)
+    console.log(this.state.current)
       return(
         <div>
             {/* <Navbar className="border-bottom" bg='transparent' expand = 'lg'>
-           
+
             <Navbar.Toggle aria-controls='navbar-toggle' />
             <Navbar.Collapse id='navbar-toggle'>
               <Nav> */}
 
 
-              
+
         <div className="nav_title">
             {/* TITLE */}
             <p className="title">JAGUAR</p>
+            <a href = "/home">
+
+
             <img id="logo"src={require("../images/logo.png")} width="150px" height="121.15px"/>
+            </a>
             <p className="title"> KARAOKE</p>
         </div>
 
 
         {/* TABS */}
         <Router>
+
+
           <div className="nav-tabs">
-            <div className={(this.props.currentTab === "home") ? "current-tab" : "nav-tab"}>
-              <a href="/" onClick={() => this.props.onEnter("home")}><p className="nav-tab-name">HOME</p></a>
+            <div className={(this.state.current === "home") ? "current-tab" : "nav-tab"}>
+              <Link to="/" onClick={() => this.currentTab("home")} ><p className="nav-tab-name">HOME</p></Link>
             </div>
 
-       
 
-            <div className={(this.props.currentTab === "about") ? "current-tab" : "nav-tab"}>
-              <a href="/about" onClick={() => this.props.onEnter("about")}><p className="nav-tab-name">ABOUT</p></a>
+
+
+
+            <div className={(this.state.current === "about") ? "current-tab" : "nav-tab"}>
+              <Link to="/about" onClick={() => this.currentTab("about")}><p className="nav-tab-name">ABOUT</p></Link>
             </div>
 
-            <div className="nav-tab">
-            <a href="/rooms"><p className="nav-tab-name">ROOMS</p></a>
+            <div className={(this.state.current === "rooms") ? "current-tab" : "nav-tab"}>
+              <Link to="/rooms" onClick={() => this.currentTab("rooms")} ><p className="nav-tab-name">ROOMS</p></Link>
             </div>
 
-            <div className="nav-tab">
-            <a href="/rent"><p className="nav-tab-name">RENT</p></a>
+            <div className={(this.state.current === "rent") ? "current-tab" : "nav-tab"}>
+              <Link to="/rent" onClick={() => this.currentTab("rent")} ><p className="nav-tab-name">RENT</p></Link>
             </div>
 
-            <div className="nav-tab">
-            <a href="/faq"><p className="nav-tab-name">FAQ</p></a>
+            <div className={(this.state.current === "faq") ? "current-tab" : "nav-tab"}>
+              <Link to="/faq" onClick={() => this.currentTab("faq")} ><p className="nav-tab-name">FAQ</p></Link>
             </div>
 
 
         </div>
+
+        <Switch id = "site-content">
+
+
+          <Route exact path="/" render={() => <Home />} />
+          <Route exact path="/home" render={() => <Home />}/>
+
+          <Route exact path="/about" render={() => <About />}/>
+          <Route exact path="/rooms" render={() => <Rooms />}/>
+          <Route exact path="/rent" render={() => <Rent />}/>
+          <Route exact path="/faq" render={() => <FAQ />}/>
+
+
+
+
+          <Route component={Error}/>
+
+          </Switch>
+
 
         </Router>
 
