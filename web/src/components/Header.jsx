@@ -17,7 +17,7 @@ class Header extends React.Component {
   constructor(props) {
     super();
     this.state = {
-      current: window.location.pathname.substring(1),
+      current: window.location.pathname,
     }
 
     // if (this.state.current === "/") {
@@ -51,7 +51,7 @@ class Header extends React.Component {
         <div className="nav_title">
             {/* TITLE */}
             <p className="title">JAGUAR</p>
-            <a href = "/home">
+            <a href = "/">
 
 
             <img id="logo"src={require("../images/logo.png")} width="150px" height="121.15px"/>
@@ -65,28 +65,28 @@ class Header extends React.Component {
 
 
           <div className="nav-tabs">
-            <div className={(this.state.current === "home") ? "current-tab" : "nav-tab"}>
-              <Link to="/" onClick={() => this.currentTab("home")} ><p className="nav-tab-name">HOME</p></Link>
+            <div className={(this.state.current === "/") ? "current-tab" : "nav-tab"}>
+              <Link to="/" onClick={() => this.currentTab("/")} ><p className="nav-tab-name">HOME</p></Link>
             </div>
 
 
 
 
 
-            <div className={(this.state.current === "about") ? "current-tab" : "nav-tab"}>
-              <Link to="/about" onClick={() => this.currentTab("about")}><p className="nav-tab-name">ABOUT</p></Link>
+            <div className={(this.state.current === "/about") ? "current-tab" : "nav-tab"}>
+              <Link to="/about" onClick={() => this.currentTab("/about")}><p className="nav-tab-name">ABOUT</p></Link>
             </div>
 
-            <div className={(this.state.current === "rooms") ? "current-tab" : "nav-tab"}>
-              <Link to="/rooms" onClick={() => this.currentTab("rooms")} ><p className="nav-tab-name">ROOMS</p></Link>
+            <div className={(this.state.current === "/rooms") ? "current-tab" : "nav-tab"}>
+              <Link to="/rooms" onClick={() => this.currentTab("/rooms")} ><p className="nav-tab-name">ROOMS</p></Link>
             </div>
 
-            <div className={(this.state.current === "rent") ? "current-tab" : "nav-tab"}>
-              <Link to="/rent" onClick={() => this.currentTab("rent")} ><p className="nav-tab-name">RENT</p></Link>
+            <div className={(this.state.current === "/rent") ? "current-tab" : "nav-tab"}>
+              <Link to="/rent" onClick={() => this.currentTab("/rent")} ><p className="nav-tab-name">RENT</p></Link>
             </div>
 
-            <div className={(this.state.current === "faq") ? "current-tab" : "nav-tab"}>
-              <Link to="/faq" onClick={() => this.currentTab("faq")} ><p className="nav-tab-name">FAQ</p></Link>
+            <div className={(this.state.current === "/faq") ? "current-tab" : "nav-tab"}>
+              <Link to="/faq" onClick={() => this.currentTab("/faq")} ><p className="nav-tab-name">FAQ</p></Link>
             </div>
 
 
@@ -96,7 +96,7 @@ class Header extends React.Component {
 
 
           <Route exact path="/" render={() => <Home />} />
-          <Route exact path="/home" render={() => <Home />}/>
+        
 
           <Route exact path="/about" render={() => <About />}/>
           <Route exact path="/rooms" render={() => <Rooms />}/>
