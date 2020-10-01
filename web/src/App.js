@@ -20,7 +20,7 @@ class App extends React.Component{
   constructor() {
     super();
     this.state = {
-      current:"home",
+      current:"/",
       // currentPath: [
       //   { current: "home", path: "/"},
       //   { current: "about", path: "/about"}
