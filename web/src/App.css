@@ -380,10 +380,45 @@ color: #000000;
 
 }
 
+.fb {
+transform:scale(0.9);
+}
+
 .gofundme {
 
   width: 100%;
-  height: 20vh;;
+  height: 20vh;
+  /* margin-bottom: 20px; */
+  /* -webkit-transform:scale(0.75);
+  -moz-transform:scale(0.75);
+  -o-transform:scale(0.75); */
+  transform:scale(0.75);
+
+
+}
+
+.fbdiv {
+  margin-left: 5%;
+  margin-top: -1%;
+    display: flex;
+    align-items: center;
+
+
+}
+.fbdiv p {
+  font-family: Lato;
+  font-style: normal;
+
+  font-size: 14px;
+}
+
+.gfmdiv {
+
+  /* margin-left: 5%; */
+
+    /* display: flex; */
+    align-items: center;
+  margin-top: -2%;
 }
 
 .BerkeleyLocation {
@@ -392,7 +427,7 @@ color: #000000;
   height: 76px; */
 
   /* top: 1284px; */
-margin-left: 5%;
+margin-left: 2%;
   font-family: Lato;
   font-style: normal;
   /* font-weight: normal; */
@@ -405,12 +440,12 @@ margin-left: 5%;
 }
 
 .BerkeleyLocation p {
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
 .OaklandLocation p {
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
@@ -420,7 +455,7 @@ margin-left: 5%;
   height: 76px; */
 
   /* top: 10%; */
-margin-left: 5%;
+margin-left: 2%;
   font-family: Lato;
   font-style: normal;
   /* font-weight: normal; */

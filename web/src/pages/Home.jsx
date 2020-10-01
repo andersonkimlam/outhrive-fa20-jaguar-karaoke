@@ -31,19 +31,19 @@ class Home extends React.Component{
               <br/>
               <iframe className = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.6809834049027!2d-122.26032924863442!3d37.86775427964323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c2f1441bb1d%3A0xc974342904e7c6f4!2sJaguar%20Karaoke%20Berkeley!5e0!3m2!1sen!2sus!4v1599936983018!5m2!1sen!2sus"   frameborder= '0' allowfullscreen= 'true' aria-hidden='false' tabindex= '0'></iframe>
                 <div className="row">
-                  <p className="loc-bold">Address</p> <p className="loc-info">2516 Durant Ave, Berkeley, CA 94704</p>
+                  <p className="loc-bold">Address</p> <p className="loc-info">2516 Durant Ave, <br/> Berkeley, CA 94704</p>
                 </div>
                 <div className="row">
-                  <p className="loc-bold">Hours</p> <p className="loc-info">Sun - Sat: 6PM - 2AM</p>
+                  <p className="loc-bold">Hours</p> <p className="loc-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun - Sat: 6PM - 2AM</p>
                 </div>
               <h2 className="city">Oakland</h2>
               <br/>
               <iframe className = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.2073673137943!2d-122.26547704863519!3d37.83203097964974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857de257000673%3A0x34f03697e548dca5!2sJaguar%20Karaoke%20Oakland!5e0!3m2!1sen!2sus!4v1599937512604!5m2!1sen!2sus"   frameborder= '0' allowfullscreen= 'true' aria-hidden='false' tabindex= '0'></iframe>
                 <div className="row">
-                  <p className="loc-bold">Address</p> <p className="loc-info">4390 Telegraph Ave, Oakland, CA 94609</p>
+                  <p className="loc-bold">Address</p> <p className="loc-info">4390 Telegraph Ave, <br/>Oakland, CA 94609</p>
                 </div>
                 <div className="row">
-                    <p className="loc-bold">Hours</p> <p className="loc-info">Sun - Sat: 6PM - 2AM</p>
+                    <p className="loc-bold">Hours</p> <p className="loc-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun - Sat: 6PM - 2AM</p>
                   </div>
             </div>
 
