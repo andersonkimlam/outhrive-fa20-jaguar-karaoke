@@ -21,16 +21,16 @@ class App extends React.Component{
     super();
     this.state = {
       current:"home",
-      currentPath: [
-        { current: "home", path: "/"},
-        { current: "about", path: "/about"}
-      ],
+      // currentPath: [
+      //   { current: "home", path: "/"},
+      //   { current: "about", path: "/about"}
+      // ],
 
     }
-    
+
   }
 
-  currentTab(tab) {
+  currentTab = (tab) => {
     this.setState({current: tab})
     console.log("hi")
   }
@@ -38,33 +38,21 @@ class App extends React.Component{
   render() {
     return (
 
-        <Router id ="site-container">
+        <div>
 
 
-      
-          <Header currentTab={this.state.current} onEnter={this.state.currentPath.current}/>
-
-        <Switch id = "site-content">
-
-          <Route exact path="/" render={() => <Home />} />
-          <Route exact path="/home" render={() => <Home />}/>
-
-          <Route exact path="/about" render={() => <About />}/>
-          <Route exact path="/rooms" render={() => <Rooms />}/>
-          <Route exact path="/rent" render={() => <Rent />}/>
-          <Route exact path="/faq" render={() => <FAQ />}/>
-
-          <Route exact path="/calendar" render={() => <Calendar />}/>
 
 
-          <Route component={Error}/>
 
-          </Switch>
 
-          
+      <Header/>
+
+
+
+
           <Footer id ="footer"/>
 
-        </Router>
+        </div>
 
 
 
