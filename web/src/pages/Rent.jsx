@@ -21,7 +21,7 @@ class Rent extends React.Component {
             </p>
             </div>
          </div>
-        </div>
+         </div>
 
         <div>
         <iframe className = "googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfdohj3Fc-E2ZOyBijZ63-CisBN8OsdCyZjd0Nk20Z7ZeXmnA/viewform?embedded=true" frameborder ='0' marginheight= '0' marginwidth= '0'>Loading…</iframe>
