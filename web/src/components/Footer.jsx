@@ -51,6 +51,7 @@ class Footer extends React.Component {
           <div className ="fbdiv col-sm-4 col-sm-push-2"  md={3} sm={12}>
             <p><strong> Connect with us</strong></p>
            <iframe className = "facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fofficialjaguarkaraoke&tabs&width=340&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" border="none"overflow="hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+          
             <iframe className = "gofundme" src="https://www.gofundme.com/f/qz56ca-stop-jaguar-karaoke-from-closing-forever/widget/medium/support"   frameborder= '0' allowfullscreen= 'true' aria-hidden='false' tabindex= '0' ></iframe>
           </div>
 

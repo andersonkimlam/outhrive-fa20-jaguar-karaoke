@@ -398,6 +398,7 @@ color: #000000;
 transform:scale(0.9);
 } */
 
+
 .gofundme {
   display: flex;
   justify-content: center;
@@ -409,8 +410,6 @@ transform:scale(0.9);
   -moz-transform:scale(0.75);
   -o-transform:scale(0.75); */
   /* transform:scale(0.75); */
-
-
 }
 
 .fbdiv {
