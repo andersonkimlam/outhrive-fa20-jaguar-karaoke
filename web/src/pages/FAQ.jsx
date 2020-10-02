@@ -18,7 +18,7 @@ class FAQ extends React.Component {
             <br/><br/><br/>
             <strong>What is the max number of people in the large room?</strong>
             <br/><br/>
-            Due to safety concerns, the maximum number of people in the large room is limited to 20.
+            The maximum number of people in the large room is limited to 20.
 
             <br/><br/><br/>
             <strong> How is the internet/wifi connection? </strong>
@@ -28,7 +28,7 @@ class FAQ extends React.Component {
             <br/><br/><br/>
             <strong> How can we reserve a rental for a room or karaoke unit?</strong>
             <br/><br/>
-            Please see our rental page for the latest update. 
+            Please see our rental page for the latest update.
 
             <br/><br/><br/>
             <strong>How long does it take to receive a response for rental inquiries?</strong>
