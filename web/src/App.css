@@ -13,6 +13,11 @@ p{
 
 /******* HEADER ********/
 
+#header {
+  width: 100vw;
+
+}
+
 .title{
   margin-top: 25px;
   font-family: 'Lato', sans-serif;
@@ -340,7 +345,7 @@ background: #DDDDDD;
 padding-top: 2vh;
 margin-top: 75px;
 height: 15%;
-  width: 100%;
+  width: 100vw;
 
 font-family: Lato;
 font-style: normal;
@@ -376,13 +381,8 @@ font-weight: normal;
 .Contacts {
   /* flex: 1 1 auto; */
   display: flex;
-<<<<<<< HEAD
   align-items: center;
   margin-left: 3%;
-=======
-  /* align-items: center; */
-  margin-left: 5%;
->>>>>>> 1b14ad18ceaecfdb8036073149f10b3981988bf6
 
 
 }
@@ -399,13 +399,9 @@ color: #000000;
 
 }
 
-<<<<<<< HEAD
 
 
 .fb {
-=======
-/* .fb {
->>>>>>> 1b14ad18ceaecfdb8036073149f10b3981988bf6
 transform:scale(0.9);
 } */
 
@@ -438,7 +434,6 @@ transform:scale(0.9);
   font-size: 14px;
 }
 
-<<<<<<< HEAD
 .gfmdiv {
 
   /* margin-left: 5%; */
@@ -460,8 +455,6 @@ transform:scale(0.9);
   white-space: nowrap;
 }
 
-=======
->>>>>>> 1b14ad18ceaecfdb8036073149f10b3981988bf6
 .BerkeleyLocation {
 
   /* width: 342px;
