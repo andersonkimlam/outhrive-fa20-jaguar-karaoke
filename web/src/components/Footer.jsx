@@ -19,15 +19,15 @@ class Footer extends React.Component {
 
         <div className ="Contacts col-sm-2 col-sm-push-4">
           <p>Contact us: (Paul's Phone #) <br/>
-           <br/> <br/>
+           <br/> <br/> <br/>
 
 
-          © 2020 Jaguar Karaoke
+
           </p>
         </div>
 
 
-        <div className ="BerkeleyLocation col-sm-4 col-sm-push-2"  md={3} sm={12}>
+        <div className ="BerkeleyLocation col-sm-4 col-sm-push-2"  md={8} sm={12}>
                     <p><strong>Berkeley Location</strong> <br/> <br/>
 
                     <strong> Address </strong> &nbsp; &nbsp;2516 Durant Ave, Berkeley, CA 94704  <br/>
@@ -57,7 +57,7 @@ class Footer extends React.Component {
 
           <div className ="gfmdiv col-sm-2 col-sm-push-4">
 
-
+                    <p>  © 2020 Jaguar Karaoke </p>
               <iframe className = "gofundme" src="https://www.gofundme.com/f/qz56ca-stop-jaguar-karaoke-from-closing-forever/widget/medium/support"   frameborder= '0' allowfullscreen= 'true' aria-hidden='false' tabindex= '0' ></iframe>
 
 
