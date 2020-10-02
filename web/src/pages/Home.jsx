@@ -24,7 +24,8 @@ class Home extends React.Component{
 
 
         <div className="row">
-            <div className="col" style={{width: "30%"}}>
+
+            <div className="col1" style={{width: "30%"}}>
               <h1 id="locations">Locations</h1>
 
               <h2 className="city">Berkeley</h2>
@@ -51,7 +52,8 @@ class Home extends React.Component{
             <hr style={{width:"1", size:"961px"}}/>
 
 
-            <div className="col" style={{width:"70%"}}>
+            <div className="col2" style={{width:"70%"}}>
+
                 <div id="notice-box">
                   <p> <span id="covid">COVID-19 Notice: </span>  For the safety of our employees and the Berkeley community, we have decided to temporarily limit our in-store karaoke operations. Select services including our karaoke machine rental service and room rentals are still in operation, but have been modified to follow safety regulations from local health and government officials.</p>
                 </div>

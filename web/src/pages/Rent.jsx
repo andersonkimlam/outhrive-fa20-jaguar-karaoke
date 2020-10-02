@@ -24,9 +24,8 @@ class Rent extends React.Component {
          </div>
 
         <div>
-        <iframe className = "googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfdohj3Fc-E2ZOyBijZ63-CisBN8OsdCyZjd0Nk20Z7ZeXmnA/viewform?embedded=true" frameborder ='0' marginheight= '0' marginwidth= '0'>Loading…</iframe>
+        <iframe className = "googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSd9lOod0B9muY8nI-iSsfRcw8Rv53PSfCUF3GG4LJYtm25hOg/viewform?embedded=true" frameborder ='0' marginheight= '0' marginwidth= '0'>Loading…</iframe>
         </div>
-
       </div>
 
 
