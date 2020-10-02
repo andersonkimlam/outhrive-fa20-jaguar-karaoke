@@ -26,14 +26,9 @@ class FAQ extends React.Component {
             The internet is fast and stable. (1gb/sec or 1000mbps)
 
             <br/><br/><br/>
-            <strong> Do you provide food and drinks?</strong>
-            <br/><br/>
-            Yes, please see our menu page for a detailed list of food and drinks available for order.
-
-            <br/><br/><br/>
             <strong> How can we reserve a rental for a room or karaoke unit?</strong>
             <br/><br/>
-            Please see our room rental update and karaoke rental update for interest forms.
+            Please see our rental page for the latest update. 
 
             <br/><br/><br/>
             <strong>How long does it take to receive a response for rental inquiries?</strong>
