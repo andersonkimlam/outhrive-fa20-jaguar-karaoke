@@ -386,8 +386,13 @@ font-weight: normal;
 .Contacts {
   /* flex: 1 1 auto; */
   display: flex;
+<<<<<<< HEAD
+  align-items: center;
+  margin-left: 3%;
+=======
   /* align-items: center; */
   margin-left: 5%;
+>>>>>>> 1b14ad18ceaecfdb8036073149f10b3981988bf6
 
 
 }
@@ -404,7 +409,13 @@ color: #000000;
 
 }
 
+<<<<<<< HEAD
+
+
+.fb {
+=======
 /* .fb {
+>>>>>>> 1b14ad18ceaecfdb8036073149f10b3981988bf6
 transform:scale(0.9);
 } */
 
@@ -437,6 +448,30 @@ transform:scale(0.9);
   font-size: 16px;
 }
 
+<<<<<<< HEAD
+.gfmdiv {
+
+  /* margin-left: 5%; */
+
+    /* display: flex; */
+    align-items: center;
+  margin-top: -2%;
+}
+
+.gfmdiv p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 19px; */
+  margin-top: -10%;
+  display: inline;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+=======
+>>>>>>> 1b14ad18ceaecfdb8036073149f10b3981988bf6
 .BerkeleyLocation {
 
   /* width: 342px;
