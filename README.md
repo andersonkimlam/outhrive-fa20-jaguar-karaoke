@@ -13,6 +13,8 @@ We will use the following tools:
 
 ## Instructions ##
 
+To start, you will need to install node.js Follow instructions here: https://nodejs.org/en/ or https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm.
+
 ### Editing ###
 
 To use the reactjs app, go into the "web" directory, then run `npm install && npm start`. `npm install` installs the packages and modules related to reactjs. `npm start` launches a localhost of the app.
