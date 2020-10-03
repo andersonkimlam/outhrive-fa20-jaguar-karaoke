@@ -3,15 +3,97 @@
 @import viewport;
 
 @media (max-width:549px){
+  #header {
+    width: 100vw;
+
+  }
+
+  #footer {
+    width: 100vw;
+  }
+
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .row > [class*='col-'] {
+     display: flex;
+     flex-direction: column;
+ }
+  .divider {
+    display: none !important;
+  }
+
+  .nav_title p{
+      font-weight: bold !important;
+      font-size: 4vw !important;
+  }
+
+.wholeSite p {
+  font-size: 4vw;
+}
+
+.sign {
+  height: 20vh !important;
+}
+
+.wholeSite h1 {
+  font-size: 7vw !important;
+}
+
+.wholeSite h2 {
+  font-size: 6vw !important;
+}
+
+.wholeSite span {
+  font-size: 6vw !important;
+}
+
+
+
+
+.col1{
+  /* display:flex; */
+  width:100% !important;
+}
   .col{
     display:flex;
     width:100%;
   }
+
+  .wholePopup {
+  /* transform:scale(0.75) !important; */
+
+  }
+  .popupgroup{
+      width:80%;
+      position: absolute;
+      width: 375px;
+      height: 812px;
+        /* transform:scale(0.75) !important; */
+    }
+
+
+    .PopupBody, .PopupTitle{
+      width:60%;
+    }
+    .PopupButton{
+      margin-left:45px;
+      margin-right:250px;
+      margin-bottom:5px;
+      margin-top:-40px;
+
+    }
+
 }
+
+
+
 
 html, body{
   width:100%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 p{
@@ -21,12 +103,19 @@ p{
   font-size: 24px;
 }
 
+
+/* body {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+
+} */
+
 /******* HEADER ********/
 
-#header {
-  width: 100vw;
 
-}
+
+
 
 .title{
   margin-top: 25px;
@@ -350,12 +439,12 @@ color: #000000;
   margin-top: 75px;
 background: #DDDDDD; */
 
-flex: 1 1 auto;
+/* flex: 1 1 auto; */
 background: #DDDDDD;
 padding-top: 2vh;
 margin-top: 75px;
-height: 15%;
-  width: 100vw;
+/* height: 15%;
+  width: 100vw; */
 
 font-family: Lato;
 font-style: normal;
@@ -382,7 +471,7 @@ font-weight: normal;
   height: 20px;
   /* left: -1px; */
   bottom: 0px;
-
+margin-top: 2vh;
   background: #25283D;
 
 }
@@ -419,14 +508,14 @@ transform:scale(0.9);
 .gofundme {
   display: flex;
   justify-content: center;
-  /* width: 100%;
-  height: 20vh; */
+  /* width: 100%; */
+  height: 100vw;
 
   /* margin-bottom: 20px; */
   /* -webkit-transform:scale(0.75);
   -moz-transform:scale(0.75);
   -o-transform:scale(0.75); */
-  /* transform:scale(0.75); */
+  transform:scale(0.75);
 }
 
 .fbdiv {
@@ -451,6 +540,8 @@ transform:scale(0.9);
     /* display: flex; */
     align-items: center;
   margin-top: -2%;
+    margin-bottom: 1vh;
+    height: 20vh;
 }
 
 .gfmdiv p {

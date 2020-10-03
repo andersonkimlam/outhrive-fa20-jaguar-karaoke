@@ -39,7 +39,7 @@ class Header extends React.Component {
   render() {
     console.log(this.state.current)
       return(
-        <div>
+        <div id = "header">
             {/* <Navbar className="border-bottom" bg='transparent' expand = 'lg'>
 
             <Navbar.Toggle aria-controls='navbar-toggle' />
@@ -96,7 +96,7 @@ class Header extends React.Component {
 
 
           <Route exact path="/" render={() => <Home />} />
-        
+
 
           <Route exact path="/about" render={() => <About />}/>
           <Route exact path="/rooms" render={() => <Rooms />}/>

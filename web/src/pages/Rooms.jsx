@@ -7,9 +7,9 @@ class Rooms extends React.Component {
       <div>
         <div className="about-page">
           <h1> Rooms</h1>
-          <p> We currently have 8 different rooms available to rent! Sizes and prices are listed below.</p>
+          <p> We currently have 8 different rooms available to rent! Call us at 415-577-2196!</p>
           <Room/>
-          
+
       {/*
           <div className="row">
             <Room img={require("../images/berkeleyroom1.png")}/>

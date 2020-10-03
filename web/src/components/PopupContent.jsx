@@ -1,11 +1,11 @@
 import React from "react";
 
 export default ({ close }) => (
-  <div>
+  <div className = "wholePopup">
 
 
  <div className="blur"> </div>
-  <div className="popupgroup">
+  <div className="popupgroup" >
 
 
 
@@ -15,7 +15,7 @@ export default ({ close }) => (
        &times;
      </a>
     {/* <img class = "popup" src={require("../images/karaokebackground1.png")}/> */}
-    <div className="PopupTitle">COVID-19 Notice</div>
+    <a onClick={close}><div className="PopupTitle">COVID-19 Notice</div>
     <br/>
     <div className="PopupBody">
     For the safety of our employees and the Berkeley community,
@@ -23,7 +23,7 @@ export default ({ close }) => (
     We are offering karaoke rentals delivered to homes in the Bay area.
     Please call at 415-577-2196 to request a delivery today!
     </div>
-
+    </a>
 
     <div className="PopupClose">
       <button class="btn" className="PopupButton" onClick={close}>

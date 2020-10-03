@@ -3,7 +3,7 @@ import React, { Component} from 'react';
 // import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-
+import '../App.css'
 class Footer extends React.Component {
 
 
@@ -24,13 +24,7 @@ class Footer extends React.Component {
         </div>
 
 
-        <div className ="BerkeleyLocation col-sm-2 col-sm-push-4">
 
-          <p>
-          © 2020 Jaguar Karaoke
-          </p>
-
-        </div>
 
 
         <div className ="BerkeleyLocation col-sm-4 col-sm-push-2"  md={8} sm={12}>
@@ -54,35 +48,26 @@ class Footer extends React.Component {
 
 
 
-<<<<<<< HEAD
-          <div className ="fbdiv col-sm-4 col-sm-push-2"  md={3} sm={12}>
-            <p><strong> Connect with us</strong></p>
-=======
 
-          <div className ="fbdiv col-sm-4 col-sm-push-2"  md={3} sm={12}>
-            <p><strong> Connect with us</strong></p>
+                  <div className ="fbdiv col-sm-4 col-sm-push-2"  md={3} sm={12}>
+                    <p><strong> Connect with us</strong></p>
 
 
->>>>>>> c8ec1a33377104524205d5d30b9acc8c4b91c479
-           <iframe className = "facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fofficialjaguarkaraoke&tabs&width=340&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" border="none"overflow="hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                   <iframe className = "facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fofficialjaguarkaraoke&tabs&width=340&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" border="none"overflow="hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
-            <iframe className = "gofundme" src="https://www.gofundme.com/f/qz56ca-stop-jaguar-karaoke-from-closing-forever/widget/medium/support"   frameborder= '0' allowfullscreen= 'true' aria-hidden='false' tabindex= '0' ></iframe>
-          </div>
+                   <div className ="gfmdiv">
+                    <iframe className = "gofundme" src="https://www.gofundme.com/f/qz56ca-stop-jaguar-karaoke-from-closing-forever/widget/medium/support"  scrolling="no"  height = "200px" frameborder= '0' allowfullscreen= 'true' aria-hidden='false' tabindex= '0' ></iframe>
+                    </div>
+
+                </div>
 
 
-          <p><iframe className = "gofundme" src="https://www.gofundme.com/f/qz56ca-stop-jaguar-karaoke-from-closing-forever/widget/medium/support" border="none" overflow="hidden" frameborder= "0px" allowTransparency="true" position="relative" height="200px">
-          </iframe>
-          </p>
-
-          <p><iframe className = "facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fofficialjaguarkaraoke&tabs&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="100%" border="none"overflow="hidden" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></p>
-
-          </div>
 
           <p div class="copyright">  © 2020 Jaguar Karaoke</p>
           </div>
 
-        </div>
 
+</div>
 
 
         <div className = "footerBottom"> </div>

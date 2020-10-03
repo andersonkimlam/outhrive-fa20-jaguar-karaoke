@@ -38,8 +38,8 @@ class App extends React.Component{
   render() {
     return (
 
-        <div>
-
+        <div className ="wholeSite">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 
 
