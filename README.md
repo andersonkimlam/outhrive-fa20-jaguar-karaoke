@@ -11,7 +11,7 @@ We will use the following tools:
 * HTML/CSS
 * ReactJS
 
-## Instructions ##
+## Usage ##
 
 To start, you will need to install node.js Follow instructions here: https://nodejs.org/en/ or https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm.
 
