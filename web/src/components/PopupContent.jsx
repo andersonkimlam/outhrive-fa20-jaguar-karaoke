@@ -21,7 +21,7 @@ export default ({ close }) => (
     For the safety of our employees and the Berkeley community,
     we have decided to temporarily close our in-store operations.
     We are offering karaoke rentals delivered to homes in the Bay area.
-    Please call at 415-577-2196 to request a delivery today!
+    <br/><br/>Please call at <a href = "tel:4155772196" color="#9F84BD">415-577-2196</a> to request a delivery today!
     </div>
     </a>
 

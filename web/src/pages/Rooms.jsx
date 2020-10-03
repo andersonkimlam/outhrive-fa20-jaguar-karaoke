@@ -7,7 +7,7 @@ class Rooms extends React.Component {
       <div>
         <div className="about-page">
           <h1> Rooms</h1>
-          <p> We currently have 8 different rooms available to rent! Call us at 415-577-2196!</p>
+          <p> We currently have 8 different rooms available to rent! Call us at <a href = "tel:4155772196">415-577-2196</a>!</p>
           <Room/>
 
       {/*

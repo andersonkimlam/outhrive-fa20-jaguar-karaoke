@@ -5,7 +5,7 @@ class Rent extends React.Component {
     return (
       <div className="about-page">
         <h1>Rental</h1>
-        <p>Do you miss singing your heart out? We are offering karaoke rentals delivered straight to your home. Start your party today by filling out the Google form below or call at 415-577-2196.</p>
+        <p>Do you miss singing your heart out? We are offering karaoke rentals delivered straight to your home. Start your party today by filling out the Google form below or call at <a href = "tel:4155772196">415-577-2196</a>.</p>
 
         <div class="container">
           <div class="pics_in_a_row">

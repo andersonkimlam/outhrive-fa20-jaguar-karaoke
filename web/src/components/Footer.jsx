@@ -19,7 +19,7 @@ class Footer extends React.Component {
 
         <div className ="Contacts col-sm-2 col-sm-push-4">
           <p><strong>Contact us</strong><br/><br/>
-           415-577-2196 <br/>
+           <a href = "tel:4155772196">415-577-2196</a> <br/>
           </p>
         </div>
 
