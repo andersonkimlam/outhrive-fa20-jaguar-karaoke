@@ -36,6 +36,7 @@ To publish the app, run `npm run build` to generate a /build directory that will
 
 
 <br/>
+
 ### /components ###
 
 #### Header.jsx ####
