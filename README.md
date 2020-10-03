@@ -32,7 +32,23 @@ To publish the app, run `npm run build` to generate a /build directory that will
 
 ### /components ###
 
+#### Header.jsx ####
+
+#### Footer.jsx ####
+
+
+#### Popup.jsx ####
 
 ### /pages ###
 
+#### Home.jsx ####
 
+#### About.jsx ####
+
+#### Rooms.jsx ####
+
+#### Rent.jsx ####
+
+#### FAQ.jsx ####
+
+#### Calendar.jsx ####
