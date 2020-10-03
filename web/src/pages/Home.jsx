@@ -57,7 +57,8 @@ class Home extends React.Component{
             <div className="container-fluid col2" style={{width:"70%"}}>
 
                 <div id="notice-box">
-                  <p> <span id="covid">COVID-19 Notice: </span>  For the safety of our employees and the Berkeley community, we have decided to temporarily limit our in-store karaoke operations. Select services including our karaoke machine rental service and room rentals are still in operation, but have been modified to follow safety regulations from local health and government officials.</p>
+                  <p> <span id="covid">COVID-19 Notice: </span>  For the safety of our employees and the Berkeley community, we have decided to temporarily limit our in-store karaoke operations. Select services including our karaoke machine rental service and room rentals are still in operation, but have been modified to follow safety regulations from local health and government officials.
+                  <br/> Please call us at <a href = "tel:4155772196">415-577-2196</a> for karaoke rentals!</p>
                 </div>
 
                 <h2 id="welcome">Welcome!</h2>

@@ -9,6 +9,7 @@ class FAQ extends React.Component {
             <strong>How have you made accommodations for COVID-19?</strong>
             <br/><br/>
             We are strictly monitoring all guests before they enter to ensure they do not exhibit COVID-19 symptoms. All guests are required to wear a face mask when interacting with employees, and all rental rooms and karaoke units will be disinfected thoroughly to prevent transmittance of disease. Employees will not be allowed to come to work should they exhibit signs of flu or COVID-19.
+            Please call us at <a href = "tel:4155772196">415-577-2196</a> for karaoke rentals!
             <br/><br/><br/>
 
             <strong> Is food allowed within the Karaoke rooms?</strong>
